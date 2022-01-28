@@ -3,9 +3,20 @@
 <!-- badges: start -->
 
 [![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/scITD.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/scITD)
+[![CRAN status](https://www.r-pkg.org/badges/version/scITD)](https://cran.r-project.org/package=scITD)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/scITD)](https://cran.r-project.org/package=scITD)
 <!-- badges: end -->
 
+<img src="https://github.com/kharchenkolab/scITD/blob/develop/inst/scITD_logo.png" align="right" height="200">
+
 # scITD
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Walkthrough](#walkthrough)
+- [Citation](#citation)
+
+## Introduction
 
 Single-Cell Interpretable Tensor Decomposition (scITD) is computational
 method capable of extracting multicellular gene expression programs that
@@ -26,7 +37,13 @@ of the data.
 
 ## Installation
 
-Install scITD with the following:
+To install scITD from CRAN use:
+
+``` r
+install.packages('scITD')
+```
+
+To use the latest version of scITD from GitHub, install with the following:
 
 ``` r
 devtools::install_github("kharchenkolab/scITD")
@@ -43,4 +60,4 @@ pipeline and applies it to a dataset of PBMC’s from 45 healthy donors.
 If you find `scITD` useful for your publication, please cite:
 
     Jonathan Mitchel, Evan Biederstedt, and Peter Kharchenko (2021). scITD: Single-Cell
-    Interpretable Tensor Decomposition. R package version 1.0.0.
+    Interpretable Tensor Decomposition. R package version 1.0.1.
