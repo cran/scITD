@@ -1,4 +1,4 @@
-15a7cd1c1303f9e28097b770e1161ce5 *DESCRIPTION
+47f1db5bfa657615e754c93d54a684cd *DESCRIPTION
 93bf6bde07605d81a6ea71dcfc8820cb *NAMESPACE
 23765520192336f7de663f830c6eea69 *R/RcppExports.R
 81c4541ee9458f48735758598824eeea *R/convert_gn.R
@@ -12,13 +12,14 @@ f644e67ffef94395a1209fade48f164d *R/get_meta_associations.R
 22c846f15148ce9849809c33f67503d9 *R/manage_scMinimal.R
 0e4ef258c3485b537f3092e130a35bc3 *R/plot_tucker.R
 90244c3922c8fdc30ea9b5ce601766dd *R/run_custom_tucker.R
-463bea254d5dbec9a23e35dcf3f58167 *R/run_gsea.R
+0c9452fbac44e65e7fcc3ad6ca5e166b *R/run_gsea.R
 e0f3d5cc682e8067994ad8e90f147577 *R/run_jackstraw.R
 6d39e71fb1fb95daf3a7af92b3824df5 *R/run_tucker_ica.R
 4c0fa14f7c1de09ada8a168566c78ec8 *R/test_stability.R
-c3e36d6679848af4d4612fcc997d07e8 *README.md
+78d31b71a62a75a922f272284989213d *README.md
 7f48d6c399950ebc679e9d37909a52bc *data/test_container.RData
 b8577acaa13055d8622ea97490749b78 *inst/scITD_logo.png
+2740ba46605cd95563870113d87a34f4 *inst/scITD_overview.jpg
 d02de5f65765dd2af366631882472ab8 *man/apply_combat.Rd
 7711499e5b42e52eaf146fb70fa61b99 *man/calculate_fiber_fstats.Rd
 f581ce140955fb2d59137de20f729998 *man/check_rec_pres.Rd
@@ -29,6 +30,7 @@ f581ce140955fb2d59137de20f729998 *man/check_rec_pres.Rd
 93b77863116f627d62629394856363f9 *man/compute_associations.Rd
 03952ef16379636d5164bd5c01a37e9a *man/compute_donor_props.Rd
 2c90b5cde6c2f643ac09f79a448c7bd4 *man/convert_gn.Rd
+184f568cc63dc4908a6e06863ab07cfb *man/count_word.Rd
 9dd67165dadfd946c76b12a3f3274de7 *man/determine_ranks_tucker.Rd
 13d0b26a06b12ed5ce552a0949f6fb91 *man/form_tensor.Rd
 baf78e2924b9644e1e3ee5ad50811598 *man/get_all_lds_factor_plots.Rd
