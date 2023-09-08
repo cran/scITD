@@ -1,7 +1,7 @@
 Package: scITD
 Title: Single-Cell Interpretable Tensor Decomposition
-Version: 1.0.2
-Date: 2022-03-23
+Version: 1.0.4
+Date: 2023-09-06
 Authors@R: c(person("Jonathan", "Mitchel", email="jonathan.mitchel3@gmail.com", role=c("cre","aut")), person("Evan", "Biederstedt", email="evan.biederstedt@gmail.com", role="aut"), person("Peter", "Kharchenko", email="peter_kharchenko@hms.harvard.edu", role="aut"))
 Maintainer: Jonathan Mitchel <jonathan.mitchel3@gmail.com>
 Description: Single-cell Interpretable Tensor Decomposition (scITD) employs the 
@@ -26,15 +26,15 @@ biocViews:
 Imports: rTensor, ica, fgsea, circlize, reshape2, parallel,
         ComplexHeatmap, ggplot2, mgcv, utils, Rcpp, RColorBrewer,
         dplyr, edgeR, sva, stats, Rmisc, ggpubr, msigdbr, sccore, NMF
-Suggests: methods, knitr, rmarkdown, testthat, coda.base, grid, ssvd,
+Suggests: methods, knitr, rmarkdown, testthat, coda.base, grid,
         simplifyEnrichment, WGCNA, cowplot, matrixStats, stringr, zoo,
         rlang, AnnotationDbi, GO.db, conos, pagoda2, betareg, slam, tm
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress
 NeedsCompilation: yes
-Packaged: 2022-03-23 17:53:26 UTC; jmitchel
+Packaged: 2023-09-08 15:38:51 UTC; jmitchel
 Author: Jonathan Mitchel [cre, aut],
   Evan Biederstedt [aut],
   Peter Kharchenko [aut]
 Repository: CRAN
-Date/Publication: 2022-03-23 18:20:02 UTC
+Date/Publication: 2023-09-08 16:00:02 UTC

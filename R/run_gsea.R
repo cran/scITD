@@ -41,6 +41,7 @@ run_fgsea <- function(container, factor_select, ctype, db_use="GO", signed=TRUE,
   })
 
   names(exp_vals) <- convert_gn(container,colnames(tnsr_slice))
+  exp_vals <- exp_vals [is.finite(exp_vals)]
 
   # remove duplicate genes
   ndx_remove <- duplicated(names(exp_vals)) | duplicated(names(exp_vals), fromLast = TRUE)
@@ -624,6 +625,13 @@ plot_gsea_sub <- function(container,clust_select,thresh=0.05) {
 
 }
 
+#' Check if a character is a go ID
+#' @param x A character
+#' 
+#' @return A logical
+is_GO_id = function(x) {
+  grepl("^GO:[0-9]+$", x)
+}
 
 #' Visualize the similarity matrix and the clustering. Adapted from simplifyEnrichment package.
 #' https://github.com/jokergoo/simplifyEnrichment/blob/master/R/ht_clusters.R
@@ -654,7 +662,7 @@ plot_gsea_sub <- function(container,clust_select,thresh=0.05) {
 #' 
 #' @return A list containing a `ComplexHeatmap::HeatmapList-class` object and GO term ordering.
 ht_clusters = function(mat, cl, dend = NULL, col = c("white", "red"),
-                       draw_word_cloud = simplifyEnrichment:::is_GO_id(rownames(mat)[1]) || !is.null(term),
+                       draw_word_cloud = is_GO_id(rownames(mat)[1]) || !is.null(term),
                        term = NULL, min_term = 5,
                        order_by_size = FALSE,
                        exclude_words = character(0), max_words = 10,
